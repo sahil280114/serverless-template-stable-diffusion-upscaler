@@ -6,7 +6,7 @@ import base64
 from io import BytesIO
 from PIL import Image
 import banana_dev as banana
-model_inputs = {'prompt': 'a white cat','image_url':'https://huggingface.co/datasets/hf-internal-testing/diffusers-images/resolve/main/sd2-upscale/low_res_cat.png'}
+model_inputs = {'prompt': 'a white cat','imageURL':'https://huggingface.co/datasets/hf-internal-testing/diffusers-images/resolve/main/sd2-upscale/low_res_cat.png'}
 
 #call on a local running gpu
 res = requests.post('http://localhost:8000/', json = model_inputs)
