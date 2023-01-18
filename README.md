@@ -1,14 +1,14 @@
-s
+
 # 🍌 Banana Serverless
-a
-This repo gives a basic framework for serving Stable Diffusion in production using simple HTTP servers.
-t
+
+This repo gives a basic framework for serving Stable Diffusion Upscaler pipelin in production using simple HTTP servers.
+
 If you want to generalize this to deploy anything on Banana, [see the guide here](https://www.notion.so/banana-dev/How-To-Serve-Anything-On-Banana-125a65fc4d30496ba1408de1d64d052a).
-dd
-## Quickstart:  j
+
+## Quickstart:
 c
-The repo is already set up to run [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) text-to-image model.
-1. Run `pip3 install -r requirements.txt` to download wdependencies.
+The repo is already set up to run [Stable Diffusion Upscaler](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler) image-to-image model.
+1. Run `pip3 install -r requirements.txt` to download dependencies.
 2. Run `python3 server.py` to start the server.
 3. Run `python3 test.py` in a different terminal session to test against it.
 
@@ -32,7 +32,7 @@ If Banana is your favorite GPU hosting provider (and we sure hope it is), read o
 
 Three steps:
 1. Create your own copy of this template repo. Either:
-- Click "[Fork](https://github.com/bananaml/serverless-template/fork)" (creates a public repo)
+- Click "[Fork](https://github.com/sahil280114/serverless-template-stable-diffusion-upscaler/fork)" (creates a public repo)
 - Click "[Use this Template](https://github.com/bananaml/serverless-template/generate)" (creates a private or public repo)
 - Create your own repo and copy the template files into it
 
