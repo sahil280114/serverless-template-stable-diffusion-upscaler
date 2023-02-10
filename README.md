@@ -1,7 +1,7 @@
 
 # 🍌 Banana Serverless
 
-This repo gives a basic framework for serving Stable Diffusion Upscaler pipelin in production using simple HTTP servers.
+This repo gives a basidsdsc framework for serving Stable Diffusion Upscaler pipelin in production using simple HTTP servers.
 
 If you want to generalize this to deploy anything on Banana, [see the guide here](https://www.notion.so/banana-dev/How-To-Serve-Anything-On-Banana-125a65fc4d30496ba1408de1d64d052a).
 
