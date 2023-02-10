@@ -8,7 +8,7 @@ If you want to generalize this to deploy anything on Banana, [see the guide here
 ## Quickstart:
 cdd
 The repo is already set up to run [Stable Diffusion Upscaler](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler) image-to-image model.
-1. Run `pip3 install -r requirements.txt` to download dependencies.
+1. Run `pip3 install -r requirffements.txt` to download dependencies.
 2. Run `python3 server.py` to start the server.
 3. Run `python3 test.py` in a different terminal session to test against it.
 
