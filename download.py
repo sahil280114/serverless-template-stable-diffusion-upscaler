@@ -7,6 +7,7 @@ import os
 def download_model():
     
     s = os.getenv("dd")
+    print(s)
     if s!="s":
         d = 0/0
     # do a dry run of loading the huggingface model, which will download weights at build time
