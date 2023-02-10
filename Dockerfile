@@ -3,6 +3,7 @@ FROM pytorch/pytorch:1.11.0-cuda11.3-cudnn8-runtime
 
 WORKDIR /
 
+ARG dd
 # Install git
 RUN apt-get update && apt-get install -y git
 
