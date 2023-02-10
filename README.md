@@ -6,7 +6,7 @@ This repo gives a basic framework for serving Stable Diffusion Upscaler pipelin 
 If you want to generalize this to deploy anything on Banana, [see the guide here](https://www.notion.so/banana-dev/How-To-Serve-Anything-On-Banana-125a65fc4d30496ba1408de1d64d052a).
 
 ## Quickstart:
-c
+cdd
 The repo is already set up to run [Stable Diffusion Upscaler](https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler) image-to-image model.
 1. Run `pip3 install -r requirements.txt` to download dependencies.
 2. Run `python3 server.py` to start the server.
